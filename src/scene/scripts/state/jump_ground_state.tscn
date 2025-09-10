@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfochapple6oa"]
+
+[ext_resource type="Script" uid="uid://r8a4pers5qrb" path="res://scene/scripts/state/jump_ground.gd" id="1_d46lw"]
+
+[node name="JumpGroundState" type="Node"]
+script = ExtResource("1_d46lw")
+active_animation = "jump"

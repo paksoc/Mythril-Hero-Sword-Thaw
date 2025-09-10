@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxv6ttsavn4kf"]
+
+[ext_resource type="Script" uid="uid://dhjfp3pr2mn3i" path="res://scene/scripts/state/landing_ground_state.gd" id="1_h0b8a"]
+
+[node name="LandingGroundState" type="Node" node_paths=PackedStringArray("TransitionStates")]
+script = ExtResource("1_h0b8a")
+active_animation = "land"
+exit_delay_sec = 0.3
+TransitionStates = [null]

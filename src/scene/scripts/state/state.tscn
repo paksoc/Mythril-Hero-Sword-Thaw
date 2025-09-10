@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bj8jgq6b7bca7"]
+
+[ext_resource type="Script" uid="uid://58n338pt72aa" path="res://scene/scripts/state/state.gd" id="1_lywpm"]
+
+[node name="State" type="Node"]
+script = ExtResource("1_lywpm")

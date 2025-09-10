@@ -1,0 +1,238 @@
+[gd_scene load_steps=21 format=3 uid="uid://gn6hux2t8yi5"]
+
+[ext_resource type="PackedScene" uid="uid://ijoub0siechj" path="res://scene/character/base/base_body_2d.tscn" id="1_6t68l"]
+[ext_resource type="Texture2D" uid="uid://2mqca50ldjc4" path="res://assets/icon/gui/settings.png" id="3_g76vf"]
+[ext_resource type="Texture2D" uid="uid://bgakg4c07f1i7" path="res://icon.svg" id="3_o7p6e"]
+[ext_resource type="Texture2D" uid="uid://bqtaert3jwvuy" path="res://assets/icon/gui/slide_button_h.png" id="3_p6lcs"]
+[ext_resource type="Texture2D" uid="uid://b776ygnlv3yhu" path="res://assets/icon/gui/slide_button_v.png" id="4_4jvoj"]
+[ext_resource type="Texture2D" uid="uid://bb8kflth58o2d" path="res://assets/icon/gui/attack_button.png" id="5_7xwja"]
+[ext_resource type="Texture2D" uid="uid://dq056vhycg664" path="res://assets/icon/gui/block_button.png" id="6_g4us8"]
+[ext_resource type="Texture2D" uid="uid://c5gj0n5fbd73v" path="res://assets/icon/gui/grab_button.png" id="7_q4qfg"]
+[ext_resource type="Texture2D" uid="uid://r6w3kaieae8w" path="res://assets/icon/gui/dash_button.png" id="8_m06km"]
+[ext_resource type="FontFile" uid="uid://c863xjfjbffmq" path="res://assets/fonts/Cinzel/Cinzel-VariableFont_wght.ttf" id="10_k1odc"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_qtu4v"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ctwlq"]
+font = ExtResource("10_k1odc")
+font_size = 24
+outline_size = 3
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_a6g6x"]
+radius = 24.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_itsjv"]
+size = Vector2(260, 135)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jj1ko"]
+size = Vector2(84, 84)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a7y6t"]
+size = Vector2(135, 260)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c16fm"]
+size = Vector2(124, 124)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_24tnj"]
+size = Vector2(84, 84)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q7vr3"]
+size = Vector2(84, 84)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_puvgv"]
+size = Vector2(690, 20)
+
+[node name="Main2D" type="Node2D"]
+
+[node name="Node" type="Node2D" parent="."]
+
+[node name="Icon" type="Sprite2D" parent="Node"]
+position = Vector2(-1140, 595)
+texture = ExtResource("3_o7p6e")
+
+[node name="Icon2" type="Sprite2D" parent="Node"]
+position = Vector2(1988, 395)
+texture = ExtResource("3_o7p6e")
+
+[node name="Icon3" type="Sprite2D" parent="Node"]
+position = Vector2(-460, 827)
+texture = ExtResource("3_o7p6e")
+
+[node name="Icon4" type="Sprite2D" parent="Node"]
+position = Vector2(522, 194)
+texture = ExtResource("3_o7p6e")
+
+[node name="Icon5" type="Sprite2D" parent="Node"]
+position = Vector2(692, 891)
+texture = ExtResource("3_o7p6e")
+
+[node name="Icon8" type="Sprite2D" parent="Node"]
+position = Vector2(1392, 659)
+texture = ExtResource("3_o7p6e")
+
+[node name="Icon9" type="Sprite2D" parent="Node"]
+position = Vector2(-1704, 519)
+texture = ExtResource("3_o7p6e")
+
+[node name="Icon6" type="Sprite2D" parent="Node"]
+position = Vector2(-262.25, 464)
+scale = Vector2(2.98047, 1.07813)
+texture = ExtResource("3_o7p6e")
+
+[node name="Icon7" type="Sprite2D" parent="Node"]
+position = Vector2(774.25, 610)
+scale = Vector2(2.16797, 1)
+texture = ExtResource("3_o7p6e")
+
+[node name="BaseBody2D" parent="." instance=ExtResource("1_6t68l")]
+position = Vector2(-271, -502)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(122, 696)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("WorldBoundaryShape2D_qtu4v")
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="Label" type="Label" parent="HUD"]
+offset_left = 48.0
+offset_top = 36.0
+offset_right = 195.0
+offset_bottom = 69.0
+text = "No Debug++"
+label_settings = SubResource("LabelSettings_ctwlq")
+
+[node name="Control" type="Control" parent="HUD"]
+modulate = Color(1, 1, 1, 0.313726)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 48.0
+offset_top = 36.0
+offset_right = -48.0
+offset_bottom = -60.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 6
+size_flags_vertical = 6
+metadata/_edit_lock_ = true
+
+[node name="Settings" type="MarginContainer" parent="HUD/Control"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -48.0
+offset_bottom = 48.0
+grow_horizontal = 0
+
+[node name="SettingButton" type="TouchScreenButton" parent="HUD/Control/Settings"]
+texture_normal = ExtResource("3_g76vf")
+shape = SubResource("CircleShape2D_a6g6x")
+
+[node name="BLButtonController" type="Control" parent="HUD/Control"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -135.0
+offset_right = 260.0
+grow_vertical = 0
+
+[node name="MoveButton" type="TouchScreenButton" parent="HUD/Control/BLButtonController"]
+position = Vector2(0, -130)
+texture_normal = ExtResource("3_p6lcs")
+shape = SubResource("RectangleShape2D_itsjv")
+
+[node name="BRButtonController" type="Control" parent="HUD/Control"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -135.0
+offset_top = -260.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="BlockButton" type="TouchScreenButton" parent="HUD/Control/BRButtonController"]
+position = Vector2(-112, -108)
+texture_normal = ExtResource("6_g4us8")
+shape = SubResource("RectangleShape2D_jj1ko")
+
+[node name="BlockButton2" type="TouchScreenButton" parent="HUD/Control/BRButtonController"]
+position = Vector2(-224, -97)
+texture_normal = ExtResource("6_g4us8")
+shape = SubResource("RectangleShape2D_jj1ko")
+
+[node name="JumpCrouchButton" type="TouchScreenButton" parent="HUD/Control/BRButtonController"]
+position = Vector2(0, -65)
+texture_normal = ExtResource("4_4jvoj")
+shape = SubResource("RectangleShape2D_a7y6t")
+
+[node name="AttackButton" type="TouchScreenButton" parent="HUD/Control/BRButtonController"]
+position = Vector2(-152, -5)
+texture_normal = ExtResource("5_7xwja")
+shape = SubResource("RectangleShape2D_c16fm")
+
+[node name="GrabButton" type="TouchScreenButton" parent="HUD/Control/BRButtonController"]
+position = Vector2(-224, 125)
+texture_normal = ExtResource("7_q4qfg")
+shape = SubResource("RectangleShape2D_24tnj")
+
+[node name="DashButton" type="TouchScreenButton" parent="HUD/Control/BRButtonController"]
+position = Vector2(-112, 140)
+texture_normal = ExtResource("8_m06km")
+shape = SubResource("RectangleShape2D_q7vr3")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+position = Vector2(289, -65)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+shape = SubResource("RectangleShape2D_puvgv")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="."]
+position = Vector2(63, 381)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D3"]
+shape = SubResource("RectangleShape2D_puvgv")
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="."]
+position = Vector2(1019, 545)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D4"]
+shape = SubResource("RectangleShape2D_puvgv")
+
+[node name="StaticBody2D5" type="StaticBody2D" parent="."]
+position = Vector2(-1136, 542)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D5"]
+shape = SubResource("RectangleShape2D_puvgv")
+
+[node name="StaticBody2D6" type="StaticBody2D" parent="."]
+position = Vector2(-697, 170)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D6"]
+shape = SubResource("RectangleShape2D_puvgv")
+
+[node name="StaticBody2D7" type="StaticBody2D" parent="."]
+position = Vector2(958, 171)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D7"]
+shape = SubResource("RectangleShape2D_puvgv")
+
+[node name="StaticBody2D8" type="StaticBody2D" parent="."]
+position = Vector2(1747, 345)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D8"]
+shape = SubResource("RectangleShape2D_puvgv")

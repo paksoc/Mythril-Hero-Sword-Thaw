@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://jswb2aws8mw7"]
+
+[ext_resource type="Script" uid="uid://cb7t52rgpruoj" path="res://scene/scripts/state/ground_idle.gd" id="1_ojxgp"]
+
+[node name="GroundIdleState" type="Node"]
+script = ExtResource("1_ojxgp")
+active_animation = "idle"

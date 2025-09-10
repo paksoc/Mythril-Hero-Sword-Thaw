@@ -1,0 +1,239 @@
+[gd_scene load_steps=50 format=3 uid="uid://ijoub0siechj"]
+
+[ext_resource type="Script" uid="uid://cj45ac8gi8mkg" path="res://scene/character/base/base_body_2d.gd" id="1_c4bxj"]
+[ext_resource type="Texture2D" uid="uid://ce3kt36suck1e" path="res://sprite/character/hero/run/Male(Run)_06.png" id="1_n5ldh"]
+[ext_resource type="Texture2D" uid="uid://dq7c826judlga" path="res://sprite/character/hero/run/Male(Run)_01.png" id="5_jby6i"]
+[ext_resource type="Texture2D" uid="uid://xoagxxt4r0vx" path="res://sprite/character/hero/run/Male(Run)_02.png" id="6_o02qn"]
+[ext_resource type="Texture2D" uid="uid://vfcjfgwbd7f2" path="res://sprite/character/hero/idle/Male(Idle)_01.png" id="7_fnfkl"]
+[ext_resource type="Texture2D" uid="uid://ccwo4p3fd3b13" path="res://sprite/character/hero/run/Male(Run)_03.png" id="7_tdyyi"]
+[ext_resource type="Texture2D" uid="uid://bujmyaqhnn7tl" path="res://sprite/character/hero/idle/Male(Idle)_02.png" id="8_3alae"]
+[ext_resource type="Texture2D" uid="uid://deoldeb584wer" path="res://sprite/character/hero/run/Male(Run)_04.png" id="8_5rc78"]
+[ext_resource type="Texture2D" uid="uid://b5mwl1t65d5t1" path="res://sprite/character/hero/fall/Male(Fall)_02.png" id="8_mti30"]
+[ext_resource type="Texture2D" uid="uid://fh0acq7t7tpl" path="res://sprite/character/hero/idle/Male(Idle)_03.png" id="9_6g33x"]
+[ext_resource type="Texture2D" uid="uid://c6nx2ga2e20as" path="res://sprite/character/hero/run/Male(Run)_05.png" id="9_frtao"]
+[ext_resource type="Texture2D" uid="uid://dt7w274l2echp" path="res://sprite/character/hero/fall/Male(Fall)_03.png" id="9_kga4g"]
+[ext_resource type="Texture2D" uid="uid://bo45pu1hb8c3h" path="res://sprite/character/hero/high-block/Male(HighBlock)1.png" id="10_ct76k"]
+[ext_resource type="Texture2D" uid="uid://bupd2pqhggfdo" path="res://sprite/character/hero/high-block/Male(HighBlock)2.png" id="11_8o5y0"]
+[ext_resource type="Texture2D" uid="uid://5qlmhetbou1w" path="res://sprite/character/hero/high-block/Male(HighBlock)3.png" id="12_njp2m"]
+[ext_resource type="Texture2D" uid="uid://byinveyldhshr" path="res://sprite/character/hero/high-block/Male(HighBlock)4.png" id="13_qpaga"]
+[ext_resource type="Texture2D" uid="uid://d0wedfs1o328r" path="res://sprite/character/hero/run-block/Male(RunBlock)3.png" id="16_s34y5"]
+[ext_resource type="Texture2D" uid="uid://wfncmhto6n6m" path="res://sprite/character/hero/run-block/Male(RunBlock)4.png" id="17_3r8j0"]
+[ext_resource type="Texture2D" uid="uid://g0ipr0ap27kq" path="res://sprite/character/hero/run-block/Male(RunBlock)5.png" id="18_n5tcr"]
+[ext_resource type="Texture2D" uid="uid://befkrjyxi0lyw" path="res://sprite/character/hero/run-block/Male(RunBlock)6.png" id="19_wg2ft"]
+[ext_resource type="Texture2D" uid="uid://cltnlluv3332v" path="res://sprite/character/hero/run-block/Male(RunBlock)7.png" id="20_38nyt"]
+[ext_resource type="Texture2D" uid="uid://jopqqwkere6r" path="res://sprite/character/hero/run-block/Male(RunBlock)8.png" id="21_0n0dt"]
+[ext_resource type="Texture2D" uid="uid://kxkjx1if4v2p" path="res://sprite/character/hero/jump/Male(Jump)_01.png" id="23_5a2yv"]
+[ext_resource type="Script" uid="uid://ddewb65gdkhbp" path="res://scene/scripts/state/statemachine.gd" id="23_xx655"]
+[ext_resource type="Texture2D" uid="uid://d30p5stjq3vo5" path="res://sprite/character/hero/jump/Male(Jump)_02.png" id="24_2jyux"]
+[ext_resource type="Texture2D" uid="uid://btlnvknah5o0f" path="res://sprite/character/hero/jump/Male(Jump)_03.png" id="25_3ble3"]
+[ext_resource type="Texture2D" uid="uid://bv0n23facrbbr" path="res://sprite/character/hero/jump/Male(Jump)_04.png" id="26_d35ev"]
+[ext_resource type="Texture2D" uid="uid://c580xa18t8bvu" path="res://sprite/character/hero/fall/Male(Fall)_01.png" id="26_enfv4"]
+[ext_resource type="Texture2D" uid="uid://r2cr41k8tboc" path="res://sprite/character/hero/jump/Male(Jump)_05.png" id="27_jol0j"]
+[ext_resource type="Texture2D" uid="uid://bdlv3osbdwx8w" path="res://sprite/character/hero/land/Male(Land)_01.png" id="29_ji7et"]
+[ext_resource type="Texture2D" uid="uid://bf1mkcd8lbltf" path="res://sprite/character/hero/land/Male(Land)_02.png" id="30_jkui2"]
+[ext_resource type="Texture2D" uid="uid://cf7bkw3gsiq8y" path="res://sprite/character/hero/land/Male(Land)_03.png" id="31_n8jrf"]
+[ext_resource type="Texture2D" uid="uid://ds7j337mqxytf" path="res://sprite/character/hero/land/Male(Land)_04.png" id="32_wq0hc"]
+[ext_resource type="Texture2D" uid="uid://c53lf0qest4cx" path="res://sprite/character/hero/land/Male(Land)_05.png" id="33_c54db"]
+[ext_resource type="Texture2D" uid="uid://bltf10mwkqvs1" path="res://sprite/character/hero/land/Male(Land)_06.png" id="34_xec50"]
+[ext_resource type="PackedScene" uid="uid://jswb2aws8mw7" path="res://scene/scripts/state/ground_idle_state.tscn" id="36_2sp6s"]
+[ext_resource type="PackedScene" uid="uid://bhi7wmw3l2mf6" path="res://scene/scripts/state/fall_state.tscn" id="37_qdb5v"]
+[ext_resource type="Script" uid="uid://dj5yfiwyus08i" path="res://scene/scripts/state/stride.gd" id="38_f7ims"]
+[ext_resource type="Script" uid="uid://r8a4pers5qrb" path="res://scene/scripts/state/jump_ground.gd" id="39_5xv3a"]
+
+[sub_resource type="Animation" id="Animation_p3q5u"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skin/Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("7_fnfkl")]
+}
+
+[sub_resource type="Animation" id="Animation_7rlhh"]
+resource_name = "block_high"
+length = 0.25
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skin/Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("7_fnfkl"), ExtResource("10_ct76k"), ExtResource("11_8o5y0"), ExtResource("12_njp2m"), ExtResource("13_qpaga")]
+}
+
+[sub_resource type="Animation" id="Animation_mvtej"]
+resource_name = "fall"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skin/Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [ExtResource("26_enfv4"), ExtResource("8_mti30"), ExtResource("9_kga4g")]
+}
+
+[sub_resource type="Animation" id="Animation_vyesi"]
+resource_name = "idle"
+length = 0.55
+loop_mode = 1
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skin/Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.3, 0.45),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("7_fnfkl"), ExtResource("8_3alae"), ExtResource("9_6g33x"), ExtResource("8_3alae")]
+}
+
+[sub_resource type="Animation" id="Animation_hfphp"]
+resource_name = "jump"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skin/Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.0666667, 0.133333, 0.2, 0.233333),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("23_5a2yv"), ExtResource("24_2jyux"), ExtResource("25_3ble3"), ExtResource("26_d35ev"), ExtResource("27_jol0j")]
+}
+
+[sub_resource type="Animation" id="Animation_rtfiu"]
+resource_name = "land"
+length = 0.2664
+step = 0.0333
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skin/Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.0666667, 0.0999667, 0.133267, 0.166567, 0.233333),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("29_ji7et"), ExtResource("30_jkui2"), ExtResource("31_n8jrf"), ExtResource("32_wq0hc"), ExtResource("33_c54db"), ExtResource("34_xec50")]
+}
+
+[sub_resource type="Animation" id="Animation_drq6h"]
+resource_name = "run_block_f_idle"
+length = 0.5
+loop_mode = 1
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skin/Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("16_s34y5"), ExtResource("17_3r8j0"), ExtResource("18_n5tcr"), ExtResource("19_wg2ft"), ExtResource("20_38nyt"), ExtResource("21_0n0dt")]
+}
+
+[sub_resource type="Animation" id="Animation_7klup"]
+resource_name = "run_loop"
+loop_mode = 1
+step = 0.0416667
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skin/Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.166667, 0.333333, 0.5, 0.666667, 0.833333),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("5_jby6i"), ExtResource("6_o02qn"), ExtResource("7_tdyyi"), ExtResource("8_5rc78"), ExtResource("9_frtao"), ExtResource("1_n5ldh")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_nbxu4"]
+_data = {
+&"RESET": SubResource("Animation_p3q5u"),
+&"block_high": SubResource("Animation_7rlhh"),
+&"fall": SubResource("Animation_mvtej"),
+&"idle": SubResource("Animation_vyesi"),
+&"jump": SubResource("Animation_hfphp"),
+&"land": SubResource("Animation_rtfiu"),
+&"run_block_loop": SubResource("Animation_drq6h"),
+&"run_loop": SubResource("Animation_7klup")
+}
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_lu4rw"]
+radius = 45.0
+height = 190.0
+
+[node name="BaseBody2D" type="CharacterBody2D"]
+script = ExtResource("1_c4bxj")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_nbxu4")
+}
+
+[node name="Skin" type="Node2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Skin"]
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("7_fnfkl")
+offset = Vector2(0, -185)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -94)
+shape = SubResource("CapsuleShape2D_lu4rw")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+offset = Vector2(0, -250)
+position_smoothing_enabled = true
+position_smoothing_speed = 10.0
+
+[node name="StateMachine" type="Node" parent="."]
+script = ExtResource("23_xx655")
+initial_state = NodePath("FallState")
+
+[node name="FallState" parent="StateMachine" node_paths=PackedStringArray("transition_targets") instance=ExtResource("37_qdb5v")]
+transition_targets = [NodePath("../GroundIdleState"), NodePath("../GroundStride")]
+
+[node name="GroundIdleState" parent="StateMachine" node_paths=PackedStringArray("transition_targets") instance=ExtResource("36_2sp6s")]
+transition_targets = [NodePath("../FallState"), NodePath("../GroundStride"), NodePath("../JumpGroundState")]
+
+[node name="JumpGroundState" type="Node" parent="StateMachine" node_paths=PackedStringArray("transition_targets")]
+script = ExtResource("39_5xv3a")
+active_animation = "jump"
+exit_delay_sec = 0.5
+transition_targets = [NodePath("../FallState")]
+metadata/_custom_type_script = "uid://r8a4pers5qrb"
+
+[node name="GroundStride" type="Node" parent="StateMachine" node_paths=PackedStringArray("transition_targets")]
+script = ExtResource("38_f7ims")
+transition_targets = [NodePath("../FallState"), NodePath("../GroundIdleState"), NodePath("../JumpGroundState")]
+metadata/_custom_type_script = "uid://dj5yfiwyus08i"
+
+[editable path="StateMachine/GroundIdleState"]
