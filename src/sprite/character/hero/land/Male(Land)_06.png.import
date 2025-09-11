@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bltf10mwkqvs1"
-path="res://.godot/imported/Male(Land)_06.png-b1d9a72dd57708f8805db981bacc01b4.ctex"
+path="res://.godot/imported/Male(Land)_06.png-26ed5fbe633acab423943f7e5b2ce686.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprite/character/hero/land/Male(Land)_06.png"
-dest_files=["res://.godot/imported/Male(Land)_06.png-b1d9a72dd57708f8805db981bacc01b4.ctex"]
+source_file="res://src/sprite/character/hero/land/Male(Land)_06.png"
+dest_files=["res://.godot/imported/Male(Land)_06.png-26ed5fbe633acab423943f7e5b2ce686.ctex"]
 
 [params]
 

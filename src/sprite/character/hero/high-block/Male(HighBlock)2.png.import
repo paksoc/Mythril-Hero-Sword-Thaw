@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bupd2pqhggfdo"
-path="res://.godot/imported/Male(HighBlock)2.png-277e562736e2e8ccbf0ca1781d9bf448.ctex"
+path="res://.godot/imported/Male(HighBlock)2.png-0c4efdff3ffc190ebc8581d6ec64dc99.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprite/character/hero/high-block/Male(HighBlock)2.png"
-dest_files=["res://.godot/imported/Male(HighBlock)2.png-277e562736e2e8ccbf0ca1781d9bf448.ctex"]
+source_file="res://src/sprite/character/hero/high-block/Male(HighBlock)2.png"
+dest_files=["res://.godot/imported/Male(HighBlock)2.png-0c4efdff3ffc190ebc8581d6ec64dc99.ctex"]
 
 [params]
 

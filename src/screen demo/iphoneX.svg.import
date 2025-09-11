@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsudmb167kgew"
-path="res://.godot/imported/iphoneX.svg-0171971c0f3526be1f0fd13934920299.ctex"
+path="res://.godot/imported/iphoneX.svg-fafef5447f334381340b10c41b264e3b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://screen demo/iphoneX.svg"
-dest_files=["res://.godot/imported/iphoneX.svg-0171971c0f3526be1f0fd13934920299.ctex"]
+source_file="res://src/screen demo/iphoneX.svg"
+dest_files=["res://.godot/imported/iphoneX.svg-fafef5447f334381340b10c41b264e3b.ctex"]
 
 [params]
 

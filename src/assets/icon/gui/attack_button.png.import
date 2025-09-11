@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bb8kflth58o2d"
-path="res://.godot/imported/attack_button.png-a985d22ffa22b95b46e822a5fe6ce602.ctex"
+path="res://.godot/imported/attack_button.png-09629d0555760c99101338f26546b1b9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/icon/gui/attack_button.png"
-dest_files=["res://.godot/imported/attack_button.png-a985d22ffa22b95b46e822a5fe6ce602.ctex"]
+source_file="res://src/assets/icon/gui/attack_button.png"
+dest_files=["res://.godot/imported/attack_button.png-09629d0555760c99101338f26546b1b9.ctex"]
 
 [params]
 

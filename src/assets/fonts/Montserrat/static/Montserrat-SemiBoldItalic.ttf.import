@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://cbdu4aqx3l461"
-path="res://.godot/imported/Montserrat-SemiBoldItalic.ttf-837099f1b4f7527705acb9f7e930f1e8.fontdata"
+path="res://.godot/imported/Montserrat-SemiBoldItalic.ttf-17a2862ced654fe95585a60ff0ad4f9e.fontdata"
 
 [deps]
 
-source_file="res://assets/fonts/Montserrat/static/Montserrat-SemiBoldItalic.ttf"
-dest_files=["res://.godot/imported/Montserrat-SemiBoldItalic.ttf-837099f1b4f7527705acb9f7e930f1e8.fontdata"]
+source_file="res://src/assets/fonts/Montserrat/static/Montserrat-SemiBoldItalic.ttf"
+dest_files=["res://.godot/imported/Montserrat-SemiBoldItalic.ttf-17a2862ced654fe95585a60ff0ad4f9e.fontdata"]
 
 [params]
 

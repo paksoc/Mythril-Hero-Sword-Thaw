@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://ce5v8vgg5juxk"
-path="res://.godot/imported/Montserrat-Italic-VariableFont_wght.ttf-401a52b87321391f1ad82cf51ddad283.fontdata"
+path="res://.godot/imported/Montserrat-Italic-VariableFont_wght.ttf-4f26bd265dde078e0caa5998788564f6.fontdata"
 
 [deps]
 
-source_file="res://assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf"
-dest_files=["res://.godot/imported/Montserrat-Italic-VariableFont_wght.ttf-401a52b87321391f1ad82cf51ddad283.fontdata"]
+source_file="res://src/assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf"
+dest_files=["res://.godot/imported/Montserrat-Italic-VariableFont_wght.ttf-4f26bd265dde078e0caa5998788564f6.fontdata"]
 
 [params]
 

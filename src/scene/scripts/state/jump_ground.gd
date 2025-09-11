@@ -5,7 +5,7 @@ func _ready() -> void:
 	type = "JumpGroundState"
 
 func can_enter()->bool:
-	return subject.get_jump_condition()
+	return subject.should_jump()
 
 func can_exit()->bool:
 	return get_runtime_in_sec()<exit_delay_sec

@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://dcexwitxhh550"
-path="res://.godot/imported/Montserrat-Thin.ttf-e7874fedcfecafa005153650a28b9843.fontdata"
+path="res://.godot/imported/Montserrat-Thin.ttf-64b5773d26847faedca64c80f55ed52e.fontdata"
 
 [deps]
 
-source_file="res://assets/fonts/Montserrat/static/Montserrat-Thin.ttf"
-dest_files=["res://.godot/imported/Montserrat-Thin.ttf-e7874fedcfecafa005153650a28b9843.fontdata"]
+source_file="res://src/assets/fonts/Montserrat/static/Montserrat-Thin.ttf"
+dest_files=["res://.godot/imported/Montserrat-Thin.ttf-64b5773d26847faedca64c80f55ed52e.fontdata"]
 
 [params]
 

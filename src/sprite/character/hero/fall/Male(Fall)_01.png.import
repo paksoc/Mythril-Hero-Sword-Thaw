@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c580xa18t8bvu"
-path="res://.godot/imported/Male(Fall)_01.png-86737ff19005dac817ff43a0fa853d3d.ctex"
+path="res://.godot/imported/Male(Fall)_01.png-39c8c5e60f2042d20ac7b5e16477ff09.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprite/character/hero/fall/Male(Fall)_01.png"
-dest_files=["res://.godot/imported/Male(Fall)_01.png-86737ff19005dac817ff43a0fa853d3d.ctex"]
+source_file="res://src/sprite/character/hero/fall/Male(Fall)_01.png"
+dest_files=["res://.godot/imported/Male(Fall)_01.png-39c8c5e60f2042d20ac7b5e16477ff09.ctex"]
 
 [params]
 
